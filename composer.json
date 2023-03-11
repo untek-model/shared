@@ -1,5 +1,5 @@
 {
-  "name": "untek-model/domain",
+  "name": "untek-model/shared",
   "type": "extension",
   "license": "MIT",
   "authors": [
@@ -14,8 +14,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Untek\\Model\\Domain\\": "src",
-      "Untek\\Model\\Domain\\Tests\\": "tests"
+      "Untek\\Model\\Shared\\": "src",
+      "Untek\\Model\\Shared\\Tests\\": "tests"
     }
   }
 }
