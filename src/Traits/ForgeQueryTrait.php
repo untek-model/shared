@@ -11,7 +11,7 @@ trait ForgeQueryTrait
     protected function forgeQuery(Query $query = null): Query
     {
         $query = Query::forge($query);
-        $this->dispatchQueryEvent($query, EventEnum::BEFORE_FORGE_QUERY);
+//        $this->dispatchQueryEvent($query, EventEnum::BEFORE_FORGE_QUERY);
         return $query;
     }
 }
