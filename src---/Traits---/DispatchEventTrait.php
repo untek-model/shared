@@ -7,6 +7,8 @@ use Untek\Model\Shared\Events\QueryEvent;
 use Untek\Core\EventDispatcher\Traits\EventDispatcherTrait;
 use Untek\Model\Query\Entities\Query;
 
+DeprecateHelper::hardThrow();
+
 trait DispatchEventTrait
 {
 
