@@ -5,6 +5,8 @@ namespace Untek\Model\Shared\Events;
 use Symfony\Contracts\EventDispatcher\Event;
 use Untek\Model\Query\Entities\Query;
 
+\Untek\Core\Code\Helpers\DeprecateHelper::hardThrow();
+
 class QueryEvent extends Event
 {
 
